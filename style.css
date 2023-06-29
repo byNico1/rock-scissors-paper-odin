@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #f5efe7;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  color: #213555;
+}
+
+main h2 {
+  text-align: center;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-around;
+  /* gap: 60px; */
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.choices div {
+  /* border: 3px solid black; */
+  padding: 15px;
+  max-width: 200px;
+}
+
+.rounds {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
