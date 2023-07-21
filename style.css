@@ -45,6 +45,7 @@ main h2 {
 .rounds {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   gap: 20px;
   align-items: center;
 }
@@ -88,6 +89,11 @@ main {
   border-radius: 10px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.counters {
+  display: flex;
+  gap: 30px;
 }
 
 footer {
